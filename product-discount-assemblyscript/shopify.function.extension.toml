@@ -1,0 +1,10 @@
+name = "product-discount-assemblyscript"
+type = "product_discounts"
+api_version = "2023-01"
+
+[build]
+command = "pnpm run asbuild"
+path = "build/release.wasm"
+[ui.paths]
+create = "/"
+details = "/"
